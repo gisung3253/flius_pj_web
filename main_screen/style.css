@@ -1,0 +1,62 @@
+body {
+    background-color:blanchedalmond;
+}
+
+h1 {
+    color:maroon;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.call_font {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+
+.password input[type="password"] {
+    width: 120px; /* 너비 설정 */
+    height: 20px; /* 높이 설정 */
+    padding: 10px; /* 내부 여백 설정 */
+    font-size: 25px; /* 글꼴 크기 설정 */
+    border: 2px solid black;
+    position:absolute;
+    top:57%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+}
+
+button {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: box-shadow 0.2s; 
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+button:active {
+    box-shadow: none; 
+}
+
