@@ -1,0 +1,37 @@
+body {
+    background-color:blanchedalmond;
+}
+
+button {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: box-shadow 0.2s; 
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+button:active {
+    box-shadow: none; 
+}
+
+div {
+    color:maroon;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
